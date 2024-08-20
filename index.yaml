@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-20T19:55:25.74781253-04:00"
+    created: "2024-08-20T19:56:29.232622271-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -34,6 +34,6 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://rlewkowicz.github.io/mariadb/mariadb-11.5.7.tgz
+    - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.7.tgz
     version: 11.5.7
-generated: "2024-08-20T19:55:25.745902322-04:00"
+generated: "2024-08-20T19:56:29.230889525-04:00"
