@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-20T19:56:29.232622271-04:00"
+    created: "2024-08-21T18:16:33.214590439-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -16,7 +16,7 @@ entries:
     description: MariaDB is an open source, community-developed SQL database server
       that is widely in use around the world due to its enterprise features, flexibility,
       and collaboration with leading tech firms.
-    digest: 79c1034dee6cf110d260227469285c8e86213717a4eb2fb2a949f375b2a0e839
+    digest: 051bcbea86b8a4f36ded0888f9a3c8e5987f017bb166c2a3ef679bd273241258
     home: https://github.com/bitnami/charts/tree/main/bitnami/mariadb
     icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
     keywords:
@@ -34,6 +34,41 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.7.tgz
+    - https://rlewkowicz.github.io/wordpress-helm/mariadb-11.5.8.tgz
+    version: 11.5.8
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 10.6.12
+    created: "2024-08-21T18:16:33.212333291-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MariaDB is an open source, community-developed SQL database server
+      that is widely in use around the world due to its enterprise features, flexibility,
+      and collaboration with leading tech firms.
+    digest: ea0f46f90a4a2f1e6f57385ad597b17859b28699126aa7d4f44f4d73566ee3d5
+    home: https://github.com/bitnami/charts/tree/main/bitnami/mariadb
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    urls:
+    - https://rlewkowicz.github.io/wordpress-helm/mariadb-11.5.7.tgz
     version: 11.5.7
-generated: "2024-08-20T19:56:29.230889525-04:00"
+generated: "2024-08-21T18:16:33.210618671-04:00"
