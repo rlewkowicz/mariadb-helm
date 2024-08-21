@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-21T18:16:33.214590439-04:00"
+    created: "2024-08-21T18:35:49.894888303-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -34,14 +34,14 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://rlewkowicz.github.io/wordpress-helm/mariadb-11.5.8.tgz
+    - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.8.tgz
     version: 11.5.8
   - annotations:
       category: Database
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-21T18:16:33.212333291-04:00"
+    created: "2024-08-21T18:35:49.893003227-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -69,6 +69,6 @@ entries:
     - https://github.com/prometheus/mysqld_exporter
     - https://mariadb.org
     urls:
-    - https://rlewkowicz.github.io/wordpress-helm/mariadb-11.5.7.tgz
+    - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.7.tgz
     version: 11.5.7
-generated: "2024-08-21T18:16:33.210618671-04:00"
+generated: "2024-08-21T18:35:49.89121712-04:00"
