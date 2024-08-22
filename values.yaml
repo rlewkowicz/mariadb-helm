@@ -1,3 +1,4 @@
+reps: 5
 image:
   repository: hireryantoday/mariadb
   tag: 11435

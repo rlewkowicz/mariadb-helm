@@ -6,7 +6,42 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-21T18:54:33.587972856-04:00"
+    created: "2024-08-21T20:21:53.54063224-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MariaDB is an open source, community-developed SQL database server
+      that is widely in use around the world due to its enterprise features, flexibility,
+      and collaboration with leading tech firms.
+    digest: 6b9e8aea1601ab8878b3a637ce31755a75f31d2b5cd732a74c29d66ba6959d20
+    home: https://github.com/bitnami/charts/tree/main/bitnami/mariadb
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    - https://mariadb.org
+    urls:
+    - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.10.tgz
+    version: 11.5.10
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 10.6.12
+    created: "2024-08-21T20:21:53.545710007-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -41,7 +76,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-21T18:54:33.586584168-04:00"
+    created: "2024-08-21T20:21:53.544343058-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -76,7 +111,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 10.6.12
-    created: "2024-08-21T18:54:33.584734225-04:00"
+    created: "2024-08-21T20:21:53.542314473-04:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -106,4 +141,4 @@ entries:
     urls:
     - https://rlewkowicz.github.io/mariadb-helm/mariadb-11.5.7.tgz
     version: 11.5.7
-generated: "2024-08-21T18:54:33.582604655-04:00"
+generated: "2024-08-21T20:21:53.538440274-04:00"
